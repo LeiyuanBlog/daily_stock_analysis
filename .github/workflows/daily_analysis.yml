@@ -324,7 +324,7 @@ jobs:
           # 自选股配置
           # ==========================================
           #STOCK_LIST: ${{ vars.STOCK_LIST || '002119' || '600519' }}
-          STOCK_LIST: ${{ vars.STOCK_LIST || '603778' || '600519' }}
+          STOCK_LIST: ${{ vars.STOCK_LIST || '603778,300857,300480' || '600519' }}
           MARKET_REVIEW_REGION: ${{ vars.MARKET_REVIEW_REGION || secrets.MARKET_REVIEW_REGION || 'cn' }}
           
           # ==========================================
